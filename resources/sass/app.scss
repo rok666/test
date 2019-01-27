@@ -1,0 +1,111 @@
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito:200,600');
+
+// Normalize
+@import 'normalize';
+
+// Variables
+@import 'variables';
+
+// General
+body {
+  font-family: $primaryFont;
+  width: 100vw;
+  height: 100vh;
+  background-color: $backgroundColor;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 70%;
+  
+}
+
+input {
+  color: $black_70;
+  height: 38px;
+  border-radius: 5px;
+  border: 1px solid $black_10;
+  text-align: center;
+  padding: 0;
+}
+
+input[type=submit] {
+  border: 0;
+  background-color: $primaryColor;
+  color: $white;
+  display: inline-block;
+  padding: 0 30px;
+  font-size: 20px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: $primaryColor_hover;
+  }
+}
+
+h4 {
+  color: $primaryColor;
+  font-size: 28px;
+  line-height: 1;
+  margin: 0;
+  font-weight: 600;
+}
+
+a {
+  text-decoration: none;
+  color: $black_70;
+  display: inline;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+// Circle Icon
+.circleShadow {
+  height: 120px;
+  width: 120px;
+  background-color: $black_Alpha_10;
+  margin-top: -60px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+  .circle {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: $primaryColor;
+  }
+
+  .icon {
+    width: 100px;
+    height: 100%;
+    background-image: $rubrica_icon;
+  }
+
+// Form Container
+.formContainer {
+  width: 290px;
+  height: 310px;
+  background-color: $white;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.inputContainer {
+  text-align: center;
+}
+ 
