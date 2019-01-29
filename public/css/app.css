@@ -379,6 +379,10 @@ template {
   display: none;
 }
 
+.verticalSpace_40 {
+  height: 40px;
+}
+
 .verticalSpace_30 {
   height: 30px;
 }
@@ -476,7 +480,6 @@ a:hover {
 
 .formContainer {
   width: 290px;
-  height: 310px;
   background-color: #ffffff;
   border-radius: 10px;
   display: flex;
