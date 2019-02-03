@@ -444,6 +444,14 @@ h4 {
   font-weight: 600;
 }
 
+h5 {
+  color: #b7c4c8;
+  font-size: 20px;
+  line-height: 1;
+  margin: 0;
+  font-weight: 200;
+}
+
 a {
   text-decoration: none;
   color: #4d4d4d;
@@ -452,6 +460,11 @@ a {
 
 a:hover {
   text-decoration: underline;
+}
+
+.bolder {
+  color: #6f7c91;
+  font-weight: 600;
 }
 
 .circleShadow {
@@ -489,5 +502,125 @@ a:hover {
 
 .inputContainer {
   text-align: center;
+}
+
+/* ----- [ Home ] ----- */
+
+main {
+  width: 100vw;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.left {
+  min-width: 300px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border-right: 1px solid #d9d9d9;
+  flex: 1;
+}
+
+.left_top {
+  width: 100%;
+  height: 80px;
+  border-bottom: 1px solid #d9d9d9;
+}
+
+.left_bottom {
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+}
+
+.nameList_wrapper {
+  height: 100%;
+  width: 100%;
+  background-color: yellowgreen;
+  flex: 1;
+  margin: 20px auto 30px auto;
+  opacity: 0.5;
+}
+
+.right {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.right_top {
+  width: 100%;
+  height: 80px;
+  background-color: #ffffff;
+  border-bottom: 1px solid #d9d9d9;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.top_menu {
+  height: 100%;
+  width: 80px;
+  border-right: 1px solid #d9d9d9;
+}
+
+.top_logout {
+  height: 100%;
+  width: 80px;
+  border-right: 1px solid #d9d9d9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon_logout {
+  height: 40px;
+  width: 40px;
+  background-image: url("/svg/icon_logout.svg");
+  fill: #b7c4c8;
+}
+
+.icon_logout:hover {
+  fill: #6f7c91;
+}
+
+.icon_logout:active {
+  height: 37px;
+  width: 37px;
+}
+
+.top_welcome {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 30px;
+  flex: 1;
+}
+
+.right_bottom {
+  width: 100%;
+  height: 100%;
+  padding: 30px;
+  box-sizing: border-box;
+  background-color: #f2f2f2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+}
+
+.detail_wrapper {
+  width: 100%;
+  height: 100%;
+  background-color: yellow;
+  opacity: 0.5;
 }
 

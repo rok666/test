@@ -16,7 +16,7 @@
     <form method="POST" action="{{ route('login') }}">
         @csrf
 
-        <input id="name" type="text" name="name" value="{{ old('name') }}" placeholder="Username" required autofocus>
+        <input id="name" type="text" name="name" placeholder="Username" required autofocus>
         @if ($errors->has('name'))
             <span role="alert">
                 <strong>{{ $errors->first('name') }}</strong>
